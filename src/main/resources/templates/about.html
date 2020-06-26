@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewport" content="width=device-width,initial-scale=1.0">
+	<title>关于我</title>
+</head>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.css">
+ <link rel="stylesheet" href="../static/css/me.css">
+<body>
+	
+	<!-- 导航 -->
+	<nav class = "ui inverted vertical segment m-padded-tb-mini m-opactiy-mini m-shadow-small">
+		<div class="ui container">
+			<div class="ui inverted secondary stackable menu">
+				<h2 class="ui teal header item">SUMMER'BLOG</h2>
+				<a href="#" class="m-item item m-mobile-hide"><i class="home icon"></i>首页</a>
+				<a href="#" class="m-item item m-mobile-hide"><i class="idea icon"></i>分类</a>
+				<a href="#" class="m-item item m-mobile-hide"><i class="tags icon"></i>标签</a>
+				<a href="#" class="m-item item m-mobile-hide"><i class="clone icon"></i>归档</a>
+				<a href="#" class="m-item item m-mobile-hide"><i class="music icon"></i>音乐盒</a>
+				<a href="#" class="m-item item m-mobile-hide"><i class="clock icon"></i>时间轴</a>
+				<a href="#" class="active m-item item m-mobile-hide"><i class="info icon"></i>关于我</a>
+				<div class = "right m-item item m-mobile-hide">
+					<div class="ui icon inverted transparent input">
+						<input type="text" placeholder="Search...">
+						<i class="search icon"></i>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<a href="#" class="ui menu toggle black icon button m-top-right m-mobile-show">
+			<i class="sidebar icon"></i>
+		</a>
+	</nav>
+	
+	<!-- 中间 -->
+	<div class="m-container-small m-padded-tb-big m-opactiy-big">
+		<div class="container">
+			<div class="ui center aligned segment">
+				<div class="m-margin-top-large" align="center">
+		            <img class="ui circular image m-mar" align="center" src="../static/image/2.jpg" th:src="@{/images/me.jpg}" style="width: 200px;height: 200px;">
+		            <h1 class="m-margin-tb-tiny">SUMMER</h1>
+		        </div>
+				<div class="m-margin-top-big" align="center">
+		            <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
+		            <a href="#" class="ui qq circular icon button" data-content="1753800014" data-position="bottom center"><i class="qq icon"></i></a>
+		            <a href="#" target="_blank" class="ui github circular icon button" data-content="点击跳转GitHub" data-position="bottom center"><i class="github icon"></i></a>
+		           
+		            <a href="#" class="ui email circular icon button" data-content="1753800014@qq.com" data-position="bottom center"><i class="envelope icon"></i></a>
+				</div>
+				<div class="ui wechat-qr flowing popup transition hidden">
+			        <img src="../static/image/1.jpg" th:src="@{/images/oneStarWechat.jpg}" alt="" class="ui rounded image" style="width: 110px">
+			        <div align="center">zhoulingyu321</div>
+			    </div>
+			    <div class="ui qq-qr flowing popup transition hidden">
+			        <img src="../static/image/2.jpg" th:src="@{/images/qq.jpg}" alt="" class="ui rounded image" style="width: 110px">
+			        <div style="margin-top: 15px" align="center">1753800014</div>
+			    </div>
+
+				<hr class="m-mobile-line-wide" style="width: 25%">
+				
+				<div class="m-margin-top-large">
+					
+					<p>这个世界既不温柔也不正确</p>
+					<p>但是为了你，我愿意热爱整个世界</p>
+					<p>月が绮丽ですね</p>
+					<br>
+
+
+					<p>不要沮丧，不必惊慌</p>		        
+		            <p>做努力爬行的蜗牛或坚持飞翔的笨鸟</p>
+		            <p>我们试着长大</p>
+		            <p>一路跌跌撞撞，然后遍体鳞伤</p>
+		            <p>坚持着，总有一天，你会站在最亮的地方</p>
+		            <p>活成自己曾经渴望的模样</p>
+				
+		        </div>
+				<hr class="m-margin-top-large">
+				<h2 class="m-margin-tb-tiny m-text-thin" style="font-size: xx-large;font-weight: bold;color:#F08047;
+				">打赏本站</h2>
+				<div class="ui orange basic label m-margin-tb-tiny">
+	            <p style="font-size: medium">每一次提笔的我们，就像街边的街头艺人，用笔唱着自己的歌谣。如果有一天你感动了，那么期待您请我们来一杯咖啡</p>
+	            </div>
+	            <div class="ui orange basic label m-margin-top-big">
+	                <div class="ui images" style="font-size: inherit !important;">
+	                    <div class="image">
+	                        <img src="../static/image/1.jpg" th:src="@{/images/zhifupay.jpg}" alt="" class="ui rounded bordered image" style="width: 180px">
+	                        <div>支付宝</div>
+	                    </div>
+	                    <div class="image">
+	                        <img src="../static/image/2.jpg" th:src="@{/images/wechatpay.jpg}" alt="" class="ui rounded bordered image" style="width: 180px">
+	                        <div>微信</div>
+	                    </div>
+	                </div>
+	            </div>
+
+			</div>
+		</div>
+	
+	</div>
+	
+
+
+	<!-- 底部footer -->
+	<footer class="ui inverted vertical segment m-padded-tb-massive m-opacity m-opactiy-mini">
+	    <!--容器-->
+	    <div class="ui center aligned container">
+	        <div class="ui inverted divided stackable grid">
+	            <div class="four wide column" >
+		        	<div class = "ui inverted link list">
+		        		<div class = "item">
+							<img src="" class="ui rounded image" alt="" style="width: 110px">
+		        		</div> 
+		        	</div>
+		        </div>
+	        
+		        <div class="four wide column" >
+		        	<h4 class = "ui inverted header m-text-spaced m-opactiy-mini">最新博客</h4>
+		        	<div class="ui inverted link list">
+						<a href="#" class="item">用户故事(User Story)</a>
+						<a href="#" class="item">用户故事(User Story)</a>
+						<a href="#" class="item">用户故事(User Story)</a>
+		        	</div>
+		        </div>
+
+		        <div class="four wide column">
+		        	<h4 class = "ui inverted header m-text-spaced m-opactiy-mini">联系我</h4>
+		        	<div class="ui inverted link list">
+						<a href="#" class="item">Email: 1753800014@qq.com</a>
+						<a href="#" class="item">QQ : 1753800014</a>
+		        	</div> 
+		        </div>
+		  
+		        <div class="four wide column">
+		            <h4 class = "ui inverted header m-text-spaced m-opactiy-mini">博客介绍</h4>
+		        	<div class="ui inverted link list">
+						<a href="#" class="item">用户故事(User Story)</a>
+						<a href="#" class="item">用户故事(User Story)</a>
+						<a href="#" class="item">用户故事(User Story)</a>
+		        	</div>   
+		        </div>
+	        </div>
+	        <div class="ui inverted section divider"></div>
+	        <a class="m-text-thin m-text-spaced m-opactiy-mini" rel="nofollow" href="http://www.beian.miit.gov.cn" target="_blank">赣ICP备20004408号-1</a>
+	    </div>
+
+	</footer>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+
+<script>
+		$('.menu.toggle').click(function(){
+			$('.m-item').toggleClass('m-mobile-hide');
+		});
+
+		// 显示微信
+	    $('.wechat').popup({
+	    	popup : $('.wechat-qr'),
+	        position: 'bottom center'
+	    });
+
+	    // 显示QQ
+	    $('.qq').popup({
+			popup : $('.qq-qr'),
+	        position: 'bottom center'
+	    });
+
+	    // 显示邮箱
+	    $('.email').popup();
+
+	    // 显示github
+      	$('.github').popup();
+
+</script>
+</body>
+</html>
